@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		626CEBA31EC0930500D22AA5 /* PodcastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CEBA21EC0930500D22AA5 /* PodcastsViewController.swift */; };
+		626CEBA51EC0A0CE00D22AA5 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CEBA41EC0A0CE00D22AA5 /* Parser.swift */; };
+		626CEBA81EC0A75300D22AA5 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CEBA61EC0A75300D22AA5 /* SWXMLHash.swift */; };
+		626CEBA91EC0A75300D22AA5 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CEBA71EC0A75300D22AA5 /* SWXMLHash+TypeConversion.swift */; };
 		627D40D11EBF6D03000CA0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D40D01EBF6D03000CA0A5 /* AppDelegate.swift */; };
-		627D40D31EBF6D03000CA0A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D40D21EBF6D03000CA0A5 /* ViewController.swift */; };
 		627D40D61EBF6D03000CA0A5 /* Pod_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 627D40D41EBF6D03000CA0A5 /* Pod_Player.xcdatamodeld */; };
 		627D40D81EBF6D03000CA0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627D40D71EBF6D03000CA0A5 /* Assets.xcassets */; };
 		627D40DB1EBF6D03000CA0A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627D40D91EBF6D03000CA0A5 /* Main.storyboard */; };
+		62ABC5881EC3467500701382 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ABC5871EC3467500701382 /* Episode.swift */; };
+		62C176D61EC4D72C00773FAC /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C176D51EC4D72C00773FAC /* EpisodeCell.swift */; };
+		62E984481EC209EE00521D06 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E984461EC209EE00521D06 /* EpisodeViewController.swift */; };
+		62E9844B1EC20E1800521D06 /* SplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9844A1EC20E1800521D06 /* SplitController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		626CEBA21EC0930500D22AA5 /* PodcastsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PodcastsViewController.swift; path = ../PodcastsViewController.swift; sourceTree = "<group>"; };
+		626CEBA41EC0A0CE00D22AA5 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		626CEBA61EC0A75300D22AA5 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = "../../../../Downloads/SWXMLHash-master/Source/SWXMLHash.swift"; sourceTree = "<group>"; };
+		626CEBA71EC0A75300D22AA5 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "../../../../Downloads/SWXMLHash-master/Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 		627D40CD1EBF6D03000CA0A5 /* Pod Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627D40D01EBF6D03000CA0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		627D40D21EBF6D03000CA0A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		627D40D51EBF6D03000CA0A5 /* Pod_Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pod_Player.xcdatamodel; sourceTree = "<group>"; };
 		627D40D71EBF6D03000CA0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627D40DA1EBF6D03000CA0A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		627D40DC1EBF6D03000CA0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62ABC5871EC3467500701382 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		62C176D51EC4D72C00773FAC /* EpisodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		62E984461EC209EE00521D06 /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		62E9844A1EC20E1800521D06 /* SplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		626CEBAA1EC0A77F00D22AA5 /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				626CEBA61EC0A75300D22AA5 /* SWXMLHash.swift */,
+				626CEBA71EC0A75300D22AA5 /* SWXMLHash+TypeConversion.swift */,
+			);
+			name = SWXMLHash;
+			sourceTree = "<group>";
+		};
 		627D40C41EBF6D03000CA0A5 = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +78,15 @@
 			isa = PBXGroup;
 			children = (
 				627D40D01EBF6D03000CA0A5 /* AppDelegate.swift */,
-				627D40D21EBF6D03000CA0A5 /* ViewController.swift */,
 				627D40D71EBF6D03000CA0A5 /* Assets.xcassets */,
 				627D40D91EBF6D03000CA0A5 /* Main.storyboard */,
+				62E9844A1EC20E1800521D06 /* SplitController.swift */,
+				626CEBA21EC0930500D22AA5 /* PodcastsViewController.swift */,
+				62E984461EC209EE00521D06 /* EpisodeViewController.swift */,
+				62C176D51EC4D72C00773FAC /* EpisodeCell.swift */,
+				62ABC5871EC3467500701382 /* Episode.swift */,
+				626CEBA41EC0A0CE00D22AA5 /* Parser.swift */,
+				626CEBAA1EC0A77F00D22AA5 /* SWXMLHash */,
 				627D40DC1EBF6D03000CA0A5 /* Info.plist */,
 				627D40D41EBF6D03000CA0A5 /* Pod_Player.xcdatamodeld */,
 			);
@@ -135,8 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627D40D31EBF6D03000CA0A5 /* ViewController.swift in Sources */,
+				62E9844B1EC20E1800521D06 /* SplitController.swift in Sources */,
+				626CEBA51EC0A0CE00D22AA5 /* Parser.swift in Sources */,
+				62E984481EC209EE00521D06 /* EpisodeViewController.swift in Sources */,
+				626CEBA91EC0A75300D22AA5 /* SWXMLHash+TypeConversion.swift in Sources */,
 				627D40D61EBF6D03000CA0A5 /* Pod_Player.xcdatamodeld in Sources */,
+				62C176D61EC4D72C00773FAC /* EpisodeCell.swift in Sources */,
+				626CEBA31EC0930500D22AA5 /* PodcastsViewController.swift in Sources */,
+				626CEBA81EC0A75300D22AA5 /* SWXMLHash.swift in Sources */,
+				62ABC5881EC3467500701382 /* Episode.swift in Sources */,
 				627D40D11EBF6D03000CA0A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +328,7 @@
 				627D40E11EBF6D03000CA0A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
